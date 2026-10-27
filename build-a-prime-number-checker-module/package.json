@@ -1,0 +1,17 @@
+{
+  "name": "prime-checker",
+  "version": "1.0.0",
+  "description": "An npm module to check whether a number is prime",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No test script configured\""
+  },
+  "keywords": [
+    "prime",
+    "prime-number",
+    "checker"
+  ],
+  "author": "Azhar Inamdar",
+  "license": "ISC",
+  "type": "commonjs"
+}

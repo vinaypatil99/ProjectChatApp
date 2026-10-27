@@ -31,7 +31,7 @@
     "build-a-chat-app": false,
     "build-jwt-protected-routes": false
   },
-  "chat.disableAIFeatures": true,
+  "chat.disableAIFeatures": false,
   "files.autoSave": "off",
   "freecodecamp-courses.autoStart": false,
   "freecodecamp-courses.prepare": "touch $(pwd)/.logs/.freecodecamp-os-lockfile",
@@ -48,7 +48,10 @@
   "terminal.integrated.defaultProfile.linux": "bash",
   "terminal.integrated.profiles.linux": {
     "bash": {
-      "args": ["--init-file", "./bash/sourcerer.sh"],
+      "args": [
+        "--init-file",
+        "./bash/sourcerer.sh"
+      ],
       "icon": "terminal-bash",
       "path": "bash"
     }
